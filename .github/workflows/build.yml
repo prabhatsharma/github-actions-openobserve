@@ -25,9 +25,9 @@ jobs:
       - uses: actions/checkout@v3
       - uses: mdp/openobserve_github_action_logs@main
         with:
-          openobserve_endpoint: ${{ secrets.dev.OPENOBSERVE_ENDPOINT }} 
-          openobserve_username: ${{ secrets.dev.OPENOBSERVE_USERNAME }}
-          openobserve_key: ${{ secrets.dev.OPENOBSERVE_KEY }}
+          openobserve_endpoint: ${{ secrets.OPENOBSERVE_ENDPOINT }} 
+          openobserve_username: ${{ secrets.OPENOBSERVE_USERNAME }}
+          openobserve_key: ${{ secrets.OPENOBSERVE_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
 
