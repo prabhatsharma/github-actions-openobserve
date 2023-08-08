@@ -29,5 +29,6 @@ jobs:
           openobserve_username: ${{ secrets.OPENOBSERVE_USERNAME }}
           openobserve_key: ${{ secrets.OPENOBSERVE_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          
 
 
