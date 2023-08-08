@@ -19,6 +19,7 @@ jobs:
   
   inception:
     runs-on: ubuntu-latest
+    environment: dev
     needs: build # wait until build is done
     steps:
       - uses: actions/checkout@v3
