@@ -23,7 +23,7 @@ jobs:
     needs: build # wait until build is done
     steps:
       - uses: actions/checkout@v3
-      - uses: mdp/openobserve_github_action_logs@main
+      - uses: prabhatsharma/openobserve_github_action_logs@main
         with:
           openobserve_endpoint: ${{ secrets.OPENOBSERVE_ENDPOINT }} 
           openobserve_username: ${{ secrets.OPENOBSERVE_USERNAME }}
